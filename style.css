@@ -4,6 +4,7 @@
     --blue: #63B1FC;
     --orange: #FF9900;
     --grey: #7D7987;
+    --orangetransparency : #FFA434;
 }
 body{
     font-family: 'Open Sans', sans-serif;
@@ -12,28 +13,40 @@ body{
 #hero{
     width: 592px;
     margin: auto;
-
 }
 
 .main-text{
-
     margin-top: 76px;
 }
 
-.main-title{
+#main-title{
     line-height: 56px;
     font-weight: normal;
     font-size: 49px;
     font-family: 'Inter', sans-serif;
+}
 
-    
-
+p{
+ color: var(--grey);
+ line-height: 30px;
 }
 
 
-.span{
-    color: var(--orange);
+span{
+    color: var(--orangetransparency);
+   
+}
+#span-1{
     font-weight: bold;
-    
+
+}
+
+#footer{
+  align-items: center;
+   
+}
+
+a{
+    gap: 20px;
 
 }
