@@ -1,18 +1,39 @@
-*{  padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-
-
-}
 
 :root{
     --black: #000000;
     --blue: #63B1FC;
     --orange: #FF9900;
+    --grey: #7D7987;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+#hero{
+    width: 592px;
+    margin: auto;
+
 }
 
-.header-image{
-    display: flex;
-    justify-content: center;
+.main-text{
+
+    margin-top: 76px;
+}
+
+.main-title{
+    line-height: 56px;
+    font-weight: normal;
+    font-size: 49px;
+    font-family: 'Inter', sans-serif;
+
     
+
+}
+
+
+.span{
+    color: var(--orange);
+    font-weight: bold;
+    
+
 }
