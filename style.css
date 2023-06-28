@@ -4,7 +4,6 @@
     --blue: #63B1FC;
     --orange: #FF9900;
     --grey: #7D7987;
-    --orangetransparency : #FFA434;
 }
 body{
     font-family: 'Open Sans', sans-serif;
@@ -15,7 +14,7 @@ body{
     margin: auto;
 }
 
-.main-text{
+#main-text{
     margin-top: 76px;
 }
 
@@ -29,11 +28,13 @@ body{
 p{
  color: var(--grey);
  line-height: 30px;
+ margin-bottom: 2px;
+
 }
 
 
 span{
-    color: var(--orangetransparency);
+    color: var(--orange);
    
 }
 #span-1{
@@ -41,12 +42,22 @@ span{
 
 }
 
+a{
+    text-decoration: none;
+    color: var(--orange);
+    margin-right: 22px;
+}
+
 #footer{
   align-items: center;
+  gap: 20px;
+  margin-top: 72px;
    
 }
 
-a{
-    gap: 20px;
+
+#balls{
+    display: flex;
+    justify-content: flex-end;
 
 }
