@@ -6,13 +6,20 @@
     --grey: #7D7987;
 }
 body{
+    margin: 0;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
 }
 #hero{
     width: 592px;
-    margin: auto;
+    margin: 0 auto 72px;
 }
+#hero img{
+    margin-bottom: 72px;
+    
+}
+
+
 
 #main-text{
     margin-top: 76px;
@@ -22,7 +29,8 @@ body{
     line-height: 56px;
     font-weight: normal;
     font-size: 49px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif;   
+    margin-bottom: 32px;
 }
 
 p{
@@ -45,19 +53,27 @@ span{
 a{
     text-decoration: none;
     color: var(--orange);
-    margin-right: 22px;
+    margin-right: 28px;
 }
 
 #footer{
   align-items: center;
   gap: 20px;
-  margin-top: 72px;
+  margin: 72px auto 33px ;
    
 }
 
 
 #balls{
-    display: flex;
-    justify-content: flex-end;
+   position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+.line{
+    width: 568px;
+    height: 0;
+    border: 1px solid #ECEFF2;
+    margin: 0 auto 8px;
 
 }
